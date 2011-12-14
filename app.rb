@@ -5,6 +5,13 @@ class MyApp < Sinatra::Base
   get "/" do
     erb :hello
   end
-puts 'haxxxxxxx'
-puts 'haxxxxxxx'
+  
+  post "/form" do
+  	@name = params[:name].upcase
+  	erb :welcome
+  end
+
+
+  
+
 end
