@@ -6,4 +6,5 @@ class MyApp < Sinatra::Base
     erb :hello
   end
 puts 'haxxxxxxx'
+puts 'haxxxxxxx'
 end
